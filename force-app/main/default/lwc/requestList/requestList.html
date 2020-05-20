@@ -1,0 +1,20 @@
+<!--
+  @File Name          : requestList.html
+  @Description        : 
+  @Author             : ChangeMeIn@UserSettingsUnder.SFDoc
+  @Group              : 
+  @Last Modified By   : ChangeMeIn@UserSettingsUnder.SFDoc
+  @Last Modified On   : 5/20/2020, 1:36:59 PM
+  @Modification Log   : 
+  Ver       Date            Author      		    Modification
+  1.0    5/20/2020   ChangeMeIn@UserSettingsUnder.SFDoc     Initial Version
+-->
+<template>
+    <div class="droppable drop-container" ondragover={handleDragOver} ondrop={handleDrop}>
+        <div class="task-header">{category}</div>
+        <template for:each={tasklist} for:item="task">
+            <c-catt-request key={task.id} task={task} onitemdrag={handleItemDrag}>
+            </c-catt-request>
+        </template>
+    </div>
+</template>

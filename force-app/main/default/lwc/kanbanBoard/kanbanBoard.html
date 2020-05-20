@@ -1,0 +1,27 @@
+<!--
+  @File Name          : kanbanBoard.html
+  @Description        : 
+  @Author             : ChangeMeIn@UserSettingsUnder.SFDoc
+  @Group              : 
+  @Last Modified By   : ChangeMeIn@UserSettingsUnder.SFDoc
+  @Last Modified On   : 5/20/2020, 12:19:42 PM
+  @Modification Log   : 
+  Ver       Date            Author      		    Modification
+  1.0    5/20/2020   ChangeMeIn@UserSettingsUnder.SFDoc     Initial Version
+-->
+<template>
+    <div class="container-drag slds-text-heading_medium slds-align_absolute-center">
+    </div>
+    <section class="container">
+        <div class="left">
+            <c-request-list tasklist={leftTasks} category="In Progress" onlistitemdrag={handleListItemDrag} 
+                onitemdrop={handleItemDrop}>
+            </c-request-list> 
+        </div>
+        <div class="right">
+            <c-request-list tasklist={rightTasks} category="Complete" onlistitemdrag={handleListItemDrag}
+            onitemdrop={handleItemDrop}>
+        </c-request-list>
+        </div>
+    </section>
+</template>
