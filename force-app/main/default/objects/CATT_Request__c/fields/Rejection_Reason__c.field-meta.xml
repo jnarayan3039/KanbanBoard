@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rejection_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Rejection Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AOV at risk too low</fullName>
+                <default>false</default>
+                <label>AOV at risk too low</label>
+            </value>
+            <value>
+                <fullName>Not a technical fit (PM required)</fullName>
+                <default>false</default>
+                <label>Not a technical fit (PM required)</label>
+            </value>
+            <value>
+                <fullName>Services engagement required</fullName>
+                <default>false</default>
+                <label>Services engagement required</label>
+            </value>
+            <value>
+                <fullName>CATT no longer needed</fullName>
+                <default>false</default>
+                <label>CATT no longer needed</label>
+            </value>
+            <value>
+                <fullName>Routed to Technical support</fullName>
+                <default>false</default>
+                <label>Routed to Technical support</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Routed to HRA</fullName>
+                <default>false</default>
+                <label>Routed to HRA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

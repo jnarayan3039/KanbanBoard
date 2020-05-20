@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Request__c</fullName>
+    <externalId>false</externalId>
+    <label>Type of Request</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Functional (Declarative/Configuration)</fullName>
+                <default>false</default>
+                <label>Functional (Declarative/Configuration)</label>
+            </value>
+            <value>
+                <fullName>Technical (Apex, VisualForce, API)</fullName>
+                <default>false</default>
+                <label>Technical (Apex, VisualForce, API)</label>
+            </value>
+            <value>
+                <fullName>Best Practices Review</fullName>
+                <default>false</default>
+                <label>Best Practices Review</label>
+            </value>
+            <value>
+                <fullName>Data Migration</fullName>
+                <default>false</default>
+                <label>Data Migration</label>
+            </value>
+            <value>
+                <fullName>Other (Please describe)</fullName>
+                <default>false</default>
+                <label>Other (Please describe)</label>
+            </value>
+            <value>
+                <fullName>Performance/Scalability Investigation</fullName>
+                <default>false</default>
+                <label>Performance/Scalability Investigation</label>
+            </value>
+            <value>
+                <fullName>Peak Readiness Screening Request</fullName>
+                <default>false</default>
+                <label>Peak Readiness Screening Request</label>
+            </value>
+            <value>
+                <fullName>Frontier Scale</fullName>
+                <default>false</default>
+                <label>Frontier Scale</label>
+            </value>
+            <value>
+                <fullName>Frontier Scale Express</fullName>
+                <default>false</default>
+                <label>Frontier Scale Express</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
